@@ -1,0 +1,122 @@
+#wp_header{
+    margin: 0px auto;
+    width: 960px;
+}
+
+ul#menu{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+    margin-top: 0px;
+}
+
+ul#menu li{
+    width: 100px;
+    list-style: none;
+    background: purple;
+    position: relative;
+}
+
+ul#menu li a{
+    display: block;
+    padding: 14px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+ul#menu li:hover{
+    background: green;
+}
+
+ul#sub_menu{
+    display: none;
+}
+
+ul#sub_menu li{
+    width: 200px;
+}
+
+ul#menu li>#sub_menu{
+    top: 46px;
+    left: -40px;
+    position: absolute;
+}
+ul#menu li:hover>#sub_menu{
+    display: block;
+}
+
+#wp_content{
+    margin: 0px auto;
+    width: 960px;
+}
+
+.title{
+    font-size: 18px;
+    font-weight: 700;
+}
+.description{
+    margin-top: 10px;
+}
+.image{
+    text-align: center;
+    margin: 20px 0px;
+}
+.image>img{
+    width: 800px;
+    height: 500px;
+}
+.price_text, .username{
+    color: red;
+}
+
+#header{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+#header a{
+    text-decoration: none;
+    color: black;
+}
+.btnForm{
+    margin-top: 10px;
+    margin-left: 84px;
+}
+
+.sanPhamTheoDanhMuc{
+    display: inline-block;
+}
+#wp_content .tenPhanLoai{
+    text-align: center;
+}
+.sanPhamTheoDanhMuc{
+    width: 300px;
+    height: 250px;
+    display: flex;
+}
+.sanPhamTheoDanhMuc .anhTheoDanhMuc{
+    text-align: center;
+    background-position: center center;
+    background-size: cover;
+}
+.sanPhamTheoDanhMuc .anhTheoDanhMuc>img{
+    width: 290px;
+    height: 170px;
+}
+.infoSPDM{
+    padding: 0px 10px;
+}
+.d-flex-jb{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+.d-flex-jb a{
+    height: 50px;
+    width: 50px;
+    padding: 9px;
+    background: rgb(187, 8, 8);
+    color: white;
+    text-decoration: none;
+}
